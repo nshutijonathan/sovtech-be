@@ -26,6 +26,7 @@ const schema = gql`
   }
   type Query {
     peaples: [Peaple] # returns an array of Peaple
+    singlePerson:[City]
     cities:[City]# return an array of cities
   }
 `;
